@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148144279636",
+    "project_id": "cronos-44c03",
+    "storage_bucket": "cronos-44c03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148144279636:android:aa36dcfde0932627949dc1",
+        "android_client_info": {
+          "package_name": "com.example.cronos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjpi1xyBUv8EkoTM_8pDtAJ2WQxn3KF2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
