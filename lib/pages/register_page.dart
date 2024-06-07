@@ -62,7 +62,7 @@ class RegisterPage extends StatelessWidget {
 
           //welcome back
           Text(
-            'listo para unirte?',
+            '¿Listo para unirte?',
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
               fontSize: 16,
@@ -73,27 +73,27 @@ class RegisterPage extends StatelessWidget {
 
           //email
           MyTextField(
-            hintText: 'Email',
+            hintText: 'Correo',
             obscureText: false,
-            controller: _emailController,
+            controller: _emailController, focusNode: FocusNode(),
           ),
 
           const SizedBox(height: 10),
 
           //password
           MyTextField(
-            hintText: 'password',
+            hintText: 'Contraseña',
             obscureText: true,
-            controller: _passwordController,
+            controller: _passwordController, focusNode: FocusNode()
           ),
 
           const SizedBox(height: 10),
 
           //confirm
           MyTextField(
-            hintText: 'confirm password',
+            hintText: 'Confirmar contraseña',
             obscureText: true,
-            controller: _confirmController,
+            controller: _confirmController, focusNode: FocusNode(),
           ),
 
           const SizedBox(height: 25),
@@ -109,13 +109,13 @@ class RegisterPage extends StatelessWidget {
           //login
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             Text(
-              "ya tienes una cuenta? ",
+              "¿Ya tienes una cuenta? ",
               style: TextStyle(color: Theme.of(context).colorScheme.primary),
             ),
             GestureDetector(
               onTap: onTap,
               child: Text(
-                "log in",
+                "Iniciar sesión",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.primary,
